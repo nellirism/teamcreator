@@ -2,7 +2,14 @@
 
 One of the most important aspects of programming is writing code that is readable, reliable, and maintainable. Oftentimes, *how* we design our code is just as important as the code itself. The goal of this project is to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each title. Since testing is a key piece in making code maintainable, we also ensured that all unit tests pass.
 
+1. [ Description. ](#desc)
+2. [ Follow the Link. ](#urlz)
+3. [ Minimum Requirements. ](#mim)
+4. [ Classes. ](#cls)
+5. [ User Input. ](#user)
+6. [ Roster. ](#rose)
 
+<a name="desc"></a>
 ## Description
 
 This is a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This assignment must also pass all unit tests. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
@@ -19,10 +26,11 @@ Here are some guidelines on the use of this application:
 
 * This app runs as a Node CLI to gather information about each employee.
 
-* Below is what TeamCreator application look like in action. 
+<a name="urlz"></a>
+## Below is what TeamCreator application looks like in action. 
 
-![Team Creator Demo 1](./assets/part1teamcreator.mp4)
-![Team Creator Demo 2](./Assets/part2test.mp4)
+- ![Team Creator Demo 1 - Node Application](https://user-images.githubusercontent.com/71202250/120150844-664a3700-c1a0-11eb-8415-4a825492ddaa.mp4)
+- ![Team Creator Demo 2 - Tests](https://user-images.githubusercontent.com/71202250/120150857-69ddbe00-c1a0-11eb-84c0-0346ab47ae10.mp4)
 
 In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
 
@@ -52,6 +60,7 @@ test/          // jest tests
 app.js         // Runs the application
 ```
 
+<a name="mim"></a>
 ## Minimum Requirements
 
 * Functional application.
@@ -62,6 +71,7 @@ app.js         // Runs the application
 
 * All tests must pass.
 
+<a name="cls"></a>
 ### Classes
 The project has these classes: `Employee`, `Manager`, `Engineer`,
 `Intern`. The tests for these classes in the `tests` directory all pass.
@@ -103,11 +113,13 @@ In addition to `Employee`'s properties and methods, `Intern` also have:
 
   * getRole() // Overridden to return 'Intern'
 
+<a name="user"></a>
 ### User input
 
 The project must prompt the user to build an engineering team. An engineering
 team consists of a manager, and any number of engineers and interns.
 
+<a name="rose"></a>
 ### Roster output
 
 The project must generate a `team.html` page in the `output` directory, that displays a nicely formatted team roster. Each team member should display the following in no particular order:
