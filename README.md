@@ -21,8 +21,8 @@ Here are some guidelines on the use of this application:
 
 * Below is what TeamCreator application look like in action. 
 
-![Employee Summary 1](./Assets/10-OOP-homework-demo-1)
-![Employee Summary 2](./Assets/10-OOP-homework-demo-2)
+![Team Creator Demo 1](./assets/part1teamcreator.mp4)
+![Team Creator Demo 2](./Assets/part2test.mp4)
 
 In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
 
