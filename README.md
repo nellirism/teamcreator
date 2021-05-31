@@ -22,7 +22,7 @@ Here are some guidelines on the use of this application:
 
 * This app runs as a Node CLI to gather information about each employee.
 
-* Below is what TeamCreator application look like in action. 
+## Below is what TeamCreator application looks like in action. 
 
 ![Team Creator Demo 1](https://user-images.githubusercontent.com/71202250/120150844-664a3700-c1a0-11eb-8415-4a825492ddaa.mp4)
 
