@@ -1,3 +1,6 @@
+
+
+
 # TeamCreator 2021
 
 One of the most important aspects of programming is writing code that is readable, reliable, and maintainable. Oftentimes, *how* we design our code is just as important as the code itself. The goal of this project is to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each title. Since testing is a key piece in making code maintainable, we also ensured that all unit tests pass.
@@ -21,8 +24,9 @@ Here are some guidelines on the use of this application:
 
 * Below is what TeamCreator application look like in action. 
 
-![Team Creator Demo 1](./assets/part1teamcreator.mp4)
-![Team Creator Demo 2](./Assets/part2test.mp4)
+![Team Creator Demo 1](https://user-images.githubusercontent.com/71202250/120150844-664a3700-c1a0-11eb-8415-4a825492ddaa.mp4)
+
+![Team Creator Demo 2](https://user-images.githubusercontent.com/71202250/120150857-69ddbe00-c1a0-11eb-84c0-0346ab47ae10.mp4)
 
 In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
 
