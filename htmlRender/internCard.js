@@ -10,7 +10,7 @@ function internCard(data){
     <div class="card-body">
     <section class="list-group">
     <p class="list-group-item">ID: ${ data.id }</p>
-    <p class="card-text">Email: <a href="mailto:${ data.email }>${ data.email }</a></p>
+    <p class="card-text">Email: <a href="mailto:${ data.email }">${ data.email }</a></p>
     <p class="card-text">School: ${ data.school }</p>
     </section>
     </div>

@@ -36,9 +36,9 @@ function mainRender(data){
         if (emp.getRole().toLowerCase() === "engineer") {
             return engCard(emp); 
         } else if (emp.getRole().toLowerCase() === "manager") {
-            return intCard(emp);
-        } else {
             return mangCard(emp);
+        } else {
+            return intCard(emp);
         }
     })}
     
